@@ -1,0 +1,168 @@
+import React, { useEffect } from 'react';
+import PropTypes from 'prop-types;
+import React, { useEffect } from 'react';
+import {
+  DataTableV2,
+  DataTableHeadV2,
+  DataTableBodyV2,
+  DataTableRowV2,
+  DataTableHeadCellV2,
+  DataTableCellV2,
+  DataTableExpandableContentV2,
+} from @zestiu
+
+<DataTableV2
+expandable
+id="tablev2-base-instance"
+onExpandRowClick={function noRefCheck(){}}
+>
+<DataTableHeadV2>
+<DataTableRowV2 id="tablev2-expandable-header-row">
+  <DataTableHeadCellV2>
+  Date
+  </DataTableHeadCellV2>
+<DataTableHeadCellV2>
+  Description
+</DataTableHeadCellV2>
+<DataTableHeadCellV2 align="right">
+  Amount
+</DataTableHeadCellV2>
+</DataTableRowV2>
+</DataTableHeadV2>
+<DataTableBodyV2>
+  <DataTableRowV2
+    expandButtonLabel="expand-sainsBuryE"
+    expanded={false}
+    id="sainsBuryE"
+    rowIndex={2}
+  >
+    <DataTableCellV2 colIndex={1}>
+      Jan 05, 2020
+    </DataTableCellV2>
+    <DataTableCellV2 colIndex={2}>
+      SAINSBURY’S ONLINE-GOL LON
+    </DataTableCellV2>
+    <DataTableCellV2
+      align="right"
+      colIndex={3}
+    >
+      $8.76
+    </DataTableCellV2>
+    <DataTableExpandableContentV2>
+      <MDXCreateElement
+        className="pad-3"
+        mdxType="div"
+        originalType="div"
+      >
+        Expandable Content 1
+      </MDXCreateElement>
+    </DataTableExpandableContentV2>
+  </DataTableRowV2>
+  <DataTableRowV2
+    expandButtonLabel="expand-onlinePaymentE"
+    expanded={false}
+    id="onlinePaymentE"
+    rowIndex={3}
+  >
+    <DataTableCellV2 colIndex={1}>
+      Mar 16, 2020
+    </DataTableCellV2>
+    <DataTableCellV2 colIndex={2}>
+      Online Payment
+    </DataTableCellV2>
+    <DataTableCellV2
+      align="right"
+      colIndex={3}
+    >
+      $300.00
+    </DataTableCellV2>
+    <DataTableExpandableContentV2>
+      <MDXCreateElement
+        className="pad-3"
+        mdxType="div"
+        originalType="div"
+      >
+        Expandable Content 2
+      </MDXCreateElement>
+    </DataTableExpandableContentV2>
+  </DataTableRowV2>
+  <DataTableRowV2
+    expandButtonLabel="expand-swissE"
+    id="swissE"
+    rowIndex={4}
+  >
+    <DataTableCellV2 colIndex={1}>
+      Apr 14, 2020
+    </DataTableCellV2>
+    <DataTableCellV2 colIndex={2}>
+      SWISS Intl Air LinesBasel CH
+    </DataTableCellV2>
+    <DataTableCellV2
+      align="right"
+      colIndex={3}
+    >
+      $5,000.00
+    </DataTableCellV2>
+    <DataTableExpandableContentV2>
+      <MDXCreateElement
+        className="pad-3"
+        mdxType="div"
+        originalType="div"
+      />
+    </DataTableExpandableContentV2>
+  </DataTableRowV2>
+  <DataTableRowV2
+    expandButtonLabel="expand-musicEnterpriseE"
+    expanded
+    id="musicEnterpriseE"
+    rowIndex={5}
+  >
+    <DataTableCellV2 colIndex={1}>
+      Oct 01, 2020
+    </DataTableCellV2>
+    <DataTableCellV2 colIndex={2}>
+      Music Enterprise In
+    </DataTableCellV2>
+    <DataTableCellV2
+      align="right"
+      colIndex={3}
+    >
+      $10.67
+    </DataTableCellV2>
+    <DataTableExpandableContentV2>
+      <MDXCreateElement
+        className="pad-3"
+        mdxType="div"
+        originalType="div"
+      >
+        Expandable Content 3
+      </MDXCreateElement>
+    </DataTableExpandableContentV2>
+  </DataTableRowV2>
+  <DataTableRowV2
+    expandButtonLabel="expand-martinsE"
+    id="martinsE"
+    rowIndex={6}
+  >
+    <DataTableCellV2 colIndex={1}>
+      Mar 15, 2020
+    </DataTableCellV2>
+    <DataTableCellV2 colIndex={2}>
+      Martin’s News Shops Wellington
+    </DataTableCellV2>
+    <DataTableCellV2
+      align="right"
+      colIndex={3}
+    >
+      $32.99
+    </DataTableCellV2>
+    <DataTableExpandableContentV2>
+      <MDXCreateElement
+        className="pad-3"
+        mdxType="div"
+        originalType="div"
+      />
+    </DataTableExpandableContentV2>
+  </DataTableRowV2>
+</DataTableBodyV2>
+</DataTableV2>
